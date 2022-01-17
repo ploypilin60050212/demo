@@ -16,7 +16,7 @@ public class HelloController {
 
     @GetMapping("/get")
     public String get(@RequestParam String name){
-        return "Hello " .concat(name);
+        return "Hello dev" .concat(name);
     }
 
     @PostMapping("/post")
